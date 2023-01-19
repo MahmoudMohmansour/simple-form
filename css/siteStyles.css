@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&display=swap');
+
+
+* {
+    font-family: 'Almarai', sans-serif;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+    height: 100vh;
+    /* overflow: hidden; */
+}
+
+#form-login{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 15px 45px;
+    background-color: rgb(152, 240, 236);
+    box-shadow: rgba(33, 33, 33, 0.3) 9px 6px 3px 3px;
+}
+
+#form-login label{
+    display: inline-block;
+    width: 120px;
+}
+
+#form-login > div{
+    margin: 15px 0;
+}
+
+#form-login input[type='text'], #form-login input[type='password'],.selection {
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    padding: 5px;
+}
+
+#form-login input[type='submit'] {    
+    font-size: 24px;
+    font-weight: bold;
+    padding: 7px 20%;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    box-shadow: rgba(33, 33, 33, 0.3) 4px 2px 3px 3px;
+    background-color: rgb(42, 96, 243);
+    color: white;
+    transition: all 0.3s;
+}
+#form-login input[type='submit']:hover {
+    background-color: white;
+    color: rgb(42, 96, 243);
+}
+
+.fa-solid, #form-login-title {
+    font-size: 32px;
+    padding: 0 15px;
+}
+.another-page{
+    font-size: 18px;
+}
+.another-page a{
+    text-decoration: none;
+    color: brown;
+    transition: all 0.4s ease-in;
+}
+.another-page a:hover{
+    color:rgb(42, 96, 243); ;
+}
+.selection{
+    width: 322px;
+}
